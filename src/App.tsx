@@ -100,7 +100,7 @@ export default function App() {
     }
 
     setCustomerSuccess(
-      `MatchedWith ${result.match.cookName}. They will reach out at ${customerEmail}.`
+      `Matched with ${result.match.cookName}. They will reach out at ${customerEmail}.`
     );
     form.reset();
     refresh();
